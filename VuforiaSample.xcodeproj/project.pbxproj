@@ -17,6 +17,10 @@
 		46423F911C2AAA0F00B4C8A4 /* Simple.fragsh in Resources */ = {isa = PBXBuildFile; fileRef = 46423F861C2AAA0F00B4C8A4 /* Simple.fragsh */; };
 		46423F921C2AAA0F00B4C8A4 /* Simple.vertsh in Resources */ = {isa = PBXBuildFile; fileRef = 46423F871C2AAA0F00B4C8A4 /* Simple.vertsh */; };
 		46423F931C2AAA0F00B4C8A4 /* Texture.mm in Sources */ = {isa = PBXBuildFile; fileRef = 46423F8A1C2AAA0F00B4C8A4 /* Texture.mm */; };
+		46423F981C2AAADF00B4C8A4 /* TextureTeapotBlue.png in Resources */ = {isa = PBXBuildFile; fileRef = 46423F941C2AAADF00B4C8A4 /* TextureTeapotBlue.png */; };
+		46423F991C2AAADF00B4C8A4 /* TextureTeapotBrass.png in Resources */ = {isa = PBXBuildFile; fileRef = 46423F951C2AAADF00B4C8A4 /* TextureTeapotBrass.png */; };
+		46423F9A1C2AAADF00B4C8A4 /* TextureTeapotGreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 46423F961C2AAADF00B4C8A4 /* TextureTeapotGreen.png */; };
+		46423F9B1C2AAADF00B4C8A4 /* TextureTeapotRed.png in Resources */ = {isa = PBXBuildFile; fileRef = 46423F971C2AAADF00B4C8A4 /* TextureTeapotRed.png */; };
 		466147911C297B9F00804000 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 466147901C297B9F00804000 /* main.m */; };
 		466147941C297B9F00804000 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 466147931C297B9F00804000 /* AppDelegate.m */; };
 		4661479A1C297B9F00804000 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 466147981C297B9F00804000 /* Main.storyboard */; };
@@ -86,6 +90,10 @@
 		46423F881C2AAA0F00B4C8A4 /* Teapot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Teapot.h; sourceTree = "<group>"; };
 		46423F891C2AAA0F00B4C8A4 /* Texture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Texture.h; sourceTree = "<group>"; };
 		46423F8A1C2AAA0F00B4C8A4 /* Texture.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Texture.mm; sourceTree = "<group>"; };
+		46423F941C2AAADF00B4C8A4 /* TextureTeapotBlue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TextureTeapotBlue.png; path = Assets/TextureTeapotBlue.png; sourceTree = "<group>"; };
+		46423F951C2AAADF00B4C8A4 /* TextureTeapotBrass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TextureTeapotBrass.png; path = Assets/TextureTeapotBrass.png; sourceTree = "<group>"; };
+		46423F961C2AAADF00B4C8A4 /* TextureTeapotGreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TextureTeapotGreen.png; path = Assets/TextureTeapotGreen.png; sourceTree = "<group>"; };
+		46423F971C2AAADF00B4C8A4 /* TextureTeapotRed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TextureTeapotRed.png; path = Assets/TextureTeapotRed.png; sourceTree = "<group>"; };
 		4661478C1C297B9F00804000 /* VuforiaSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VuforiaSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		466147901C297B9F00804000 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		466147921C297B9F00804000 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -506,6 +514,10 @@
 		46898ED71C298A60001419A7 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				46423F941C2AAADF00B4C8A4 /* TextureTeapotBlue.png */,
+				46423F951C2AAADF00B4C8A4 /* TextureTeapotBrass.png */,
+				46423F961C2AAADF00B4C8A4 /* TextureTeapotGreen.png */,
+				46423F971C2AAADF00B4C8A4 /* TextureTeapotRed.png */,
 				46898ED81C298A60001419A7 /* Assets */,
 			);
 			path = Resources;
@@ -635,14 +647,18 @@
 			files = (
 				46423F921C2AAA0F00B4C8A4 /* Simple.vertsh in Resources */,
 				46898F191C298A60001419A7 /* building_texture.jpeg in Resources */,
+				46423F981C2AAADF00B4C8A4 /* TextureTeapotBlue.png in Resources */,
+				46423F991C2AAADF00B4C8A4 /* TextureTeapotBrass.png in Resources */,
 				46423F911C2AAA0F00B4C8A4 /* Simple.fragsh in Resources */,
 				4661479F1C297B9F00804000 /* LaunchScreen.storyboard in Resources */,
 				46423F901C2AAA0F00B4C8A4 /* Line.vertsh in Resources */,
 				4661479C1C297B9F00804000 /* Assets.xcassets in Resources */,
 				46423F8F1C2AAA0F00B4C8A4 /* Line.fragsh in Resources */,
 				4661479A1C297B9F00804000 /* Main.storyboard in Resources */,
+				46423F9A1C2AAADF00B4C8A4 /* TextureTeapotGreen.png in Resources */,
 				46898F1C1C298A60001419A7 /* CR_about.html in Resources */,
 				46898F1A1C298A60001419A7 /* buildings.txt in Resources */,
+				46423F9B1C2AAADF00B4C8A4 /* TextureTeapotRed.png in Resources */,
 				46898F1B1C298A60001419A7 /* CR.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
