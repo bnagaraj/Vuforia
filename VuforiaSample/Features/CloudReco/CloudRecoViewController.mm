@@ -24,7 +24,6 @@ static const char* const kAccessKey = "d10dfaaa6ef0a04440eab8f2f8212f8b426fd3df"
 static const char* const kSecretKey = "d7f4e10dac3f60587d13e3af129cb8d4d3a4c56e";
 //"ad4a7110ad50100b22474f166d7ef4f5b3887a30";
 
-
 @interface CloudRecoViewController ()
 
 @property (weak, nonatomic) IBOutlet UIImageView *ARViewPlaceholder;

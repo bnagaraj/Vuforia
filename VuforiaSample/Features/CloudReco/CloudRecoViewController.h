@@ -11,6 +11,7 @@ countries.
 #import "SampleAppMenuViewController.h"
 #import <QCAR/DataSet.h>
 
+
 @interface CloudRecoViewController : UIViewController <SampleApplicationControl, SampleAppMenuDelegate, UIAlertViewDelegate> {
     
     BOOL scanningMode;
